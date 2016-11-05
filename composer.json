@@ -6,5 +6,21 @@
             "email": "min.wan@yoho.cn"
         }
     ],
-    "require": {}
+    "require": {
+       "noahbuscher/macaw": "dev-master",
+        "catfan/Medoo":"*",
+	   "twig/twig":"*",
+	    "filp/whoops":"*",
+        "symfony/var-dumper":"*"
+     },
+     "autoload":{
+        "files":[
+          "common/lib/functions.php"
+        ],
+        "psr-4":{
+            "App\\Controllers\\":"app/controllers",
+            "App\\Models\\":"app/models",
+            "App\\Views\\":"app/views"
+        }
+     }
 }
