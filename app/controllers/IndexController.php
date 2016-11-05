@@ -17,8 +17,8 @@ class IndexController extends BaseController
 
 	public function test()
 	{
-		echo 'test page !!';
-        d([12,3,4,443]);
+//		echo 'test page !!';
+//        d([12,3,4,443]);
         $instance = new goods();
         $data = $instance->getData();
 //        var_dump($data);
@@ -27,8 +27,6 @@ class IndexController extends BaseController
 
         $view = \View::make('index')->with('data',$data);
         \View::process($view);
-
-
 	}
 
 	public function index()

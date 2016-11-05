@@ -17,6 +17,9 @@
 </head>
 <body>
 <div class="article">
+
+
+    dddddd
     <?php var_dump($data); ?>
 </div>
 
