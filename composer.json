@@ -1,0 +1,10 @@
+{
+    "name": "wanmin/composer-test",
+    "authors": [
+        {
+            "name": "wanmin",
+            "email": "min.wan@yoho.cn"
+        }
+    ],
+    "require": {}
+}
