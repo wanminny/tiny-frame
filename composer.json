@@ -11,7 +11,8 @@
         "catfan/Medoo":"*",
 	   "twig/twig":"*",
 	    "filp/whoops":"*",
-        "symfony/var-dumper":"*"
+        "symfony/var-dumper":"*",
+         "tinylara/tinyview": "*"
      },
      "autoload":{
         "files":[

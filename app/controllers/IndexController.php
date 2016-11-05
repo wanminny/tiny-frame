@@ -22,7 +22,12 @@ class IndexController extends BaseController
         $instance = new goods();
         $data = $instance->getData();
 //        var_dump($data);
-        dump($data);
+//        dump($data);
+
+
+        $view = \View::make('index')->with('data',$data);
+        \View::process($view);
+
 
 	}
 

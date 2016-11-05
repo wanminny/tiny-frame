@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0cfbaec503b6066c060ded517af7a6a5",
-    "content-hash": "68d983896ab9ba8bbf7487d5f72a7e85",
+    "hash": "1d4f2520ba1fa7b5bc45fe3b24685b15",
+    "content-hash": "cffb914f2e285498f2d781a428005dda",
     "packages": [
         {
             "name": "catfan/medoo",
@@ -273,6 +273,42 @@
                 "dump"
             ],
             "time": "2016-10-18 15:46:07"
+        },
+        {
+            "name": "tinylara/tinyview",
+            "version": "v1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TinyLara/TinyView.git",
+                "reference": "d766ae1695096e694b19640b9982b46e337137dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/TinyLara/TinyView/d766ae1695096e694b19640b9982b46e337137dc.zip",
+                "reference": "d766ae1695096e694b19640b9982b46e337137dc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TinyLara\\TinyView\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Lui",
+                    "email": "wenhanlv@gmail.com"
+                }
+            ],
+            "description": "Tiny View Loader used by TinyLara.",
+            "time": "2015-11-01 09:55:13"
         },
         {
             "name": "twig/twig",

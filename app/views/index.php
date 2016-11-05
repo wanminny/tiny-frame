@@ -6,7 +6,19 @@
  * Time: 下午1:33
  */
 
+?>
 
-namespace App\Views;
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
+</head>
+<body>
+<div class="article">
+    <?php var_dump($data); ?>
+</div>
+
+</body>
+</html>
